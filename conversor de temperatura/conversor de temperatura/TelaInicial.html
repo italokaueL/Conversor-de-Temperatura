@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="TelaInicial.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <input type="number" id="inputTemp" placeholder="Digite a temperatura">
+            <select id="inputUnit">
+                <option value="C">Celsius</option>
+                <option value="F">Fahrenheit</option>
+                <option value="K">Kelvin</option>
+            </select>
+        </div>
+
+        <div class="center">
+            <h1>X</h1>
+        </div>
+
+        <div class="right-side">
+            <div>
+                <input type="number" id="output1" disabled>
+                <select id="outputUnit1">
+                    <option value="F">Fahrenheit</option>
+                </select>
+            </div>
+            <div>
+                <input type="number" id="output2" disabled>
+                <select id="outputUnit2">
+                    <option value="K">Kelvin</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script src="ConversorTemp.js"></script>
+</body>
+</html>
